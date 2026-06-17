@@ -7,7 +7,7 @@
 }
 
 body{
-  background-color: rgb(241, 240, 240);
+  background-color: #f2f0ef;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,6 +20,7 @@ header{
 }
 
 header nav{
+  align-items: center;
   display: flex;
   justify-content: space-between;
   padding: 15px;
@@ -42,7 +43,7 @@ header ul{
 
 header a{
   text-decoration: none;
-  color: rgb(15, 130, 100);
+  color: #5e5e5e;
   padding: 3px;
 }
 
@@ -57,7 +58,8 @@ header li a:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto auto;
+  margin: auto;
+  margin-left: 100px;
 
 }
 
@@ -74,7 +76,16 @@ header li a:hover{
   color: rgb(54, 56, 56);
   text-align: start;
   font-size: 20px;
+  text-align-last:justify ;
+  max-width: 1000px;
 
+}
+.tela-inicial img{
+  position: absolute;
+  display: flex;
+  border-radius: 100px;
+  margin-top: -360px;
+  margin-left: 1050px;
 }
 
 #main-content button{
