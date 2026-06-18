@@ -132,7 +132,28 @@ header li a:hover{
   
 }
 
+.container-patrocinadores {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  gap: 30px;               
+  flex-wrap: wrap; 
+  border-radius: 10px;      
+}
 
+
+.logo-patrocinador img {
+  max-width: 150px;        
+  height: auto;            
+  filter: grayscale(100%); 
+  transition: filter 0.3s ease;
+  padding: 10px;
+  
+}
+
+.logo-patrocinador img:hover {
+  filter: grayscale(0%);   
+}
 
 
 
